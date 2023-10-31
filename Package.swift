@@ -16,7 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "NMapsMap",
-            path: "Resources/NMapsMap/NMapsMap.xcframework"
+            url: "https://github.com/jaemyeong/NMapsMap/releases/download/3.17.0/NMapsMap.xcframework.zip",
+            checksum: "32763f8d304d85f61d0e630ee43eb9bdc68f80b6aaf7261ec8d4da98aca6bae0"
         ),
         .binaryTarget(
             name: "NMapsGeometry",
